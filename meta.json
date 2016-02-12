@@ -1,26 +1,31 @@
-/*
- * Metadata describing the module operation
- */
 {
-    //Required. Inputs the module expects.
     "inputs": [
-        //e.g.
-        /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "stations",
+            "title":"Weather Stations"
         }
-        */
     ],
-    //Required. Outputs the module emits.
     "outputs": [
-      //e.g.
-      /*
         {
-            "id": "from",
-            "title":"From"
+            "id": "time",
+            "title":"Time"
+        }, {
+            "id": "speed",
+            "title":"Speed"
+        }, {
+            "id": "direction",
+            "title":"Direction"
+        }, {
+            "id": "gust",
+            "title":"Gust"
+        }, {
+            "id": "station_id",
+            "title":"Station ID"
+        }, {
+            "id": "station_name",
+            "title":"Station Name"
         }
-      */
     ],
-    "title": "Weather: Get Coastal Wind Speed" /* Required.A display name for the module */
+    "icon": "sun-o",
+    "title": "Weather: Get Coastal Wind Speed"
 }

@@ -1,12 +1,15 @@
 {
-    "name": "weather-get-coastal-wind-speed",
-    "version": "0.0.1",
-    "description": "",
-    "main": "index.js",
-    "author": "Justin Fargione",
-    "license": "ISC",
-    "private": true,
-    "dependencies": {
-        "lodash": "^3.9.3"
-    }
+  "name": "weather-get-coastal-wind-speed",
+  "version": "0.0.1",
+  "description": "Get wind speed data from coastal weather stations",
+  "main": "index.js",
+  "author": "Justin Fargione",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "lodash": "^3.9.3",
+    "q": "^1.4.1",
+    "qs": "^6.1.0",
+    "request": "^2.69.0"
+  }
 }
